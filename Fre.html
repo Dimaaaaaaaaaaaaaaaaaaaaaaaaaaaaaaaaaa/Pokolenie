@@ -1,0 +1,97 @@
+<html>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('D:/Курсовая работа/фон3.jpg');
+        padding-top: 12vw;
+        background-size: 100%; 
+        background-position: center top 100%;   
+        background-repeat: no-repeat;
+        height: auto;
+        width: auto;
+        text-align: justify;
+        position: relative;
+        background-attachment: fixed;
+        .ul {
+            list-style-type: none;
+            padding-left: 5vw; 
+        };
+        ul li {
+            position: relative;
+        };
+        ul li::before {
+            content: '•'; 
+            position: absolute; 
+            left: -5vw;
+            font-size: 6vw;
+            color: white; 
+        };
+        .carta{
+            font-family: 'Segoe UI';
+            position: absolute;
+            color: white;
+            width: auto;
+            font-size: 5vw;
+            height: auto;
+            top: 0;
+            left: 37vw;
+        };
+        .carta0, .carta1, .carta2, .carta3, .carta4{
+            font-family: 'Segoe UI';
+            position: relative;
+            border: 0;
+            font-size: 4.4vw;
+            background: rgb(0, 0, 0, 0);
+            color: white;
+            width: auto;
+            height: auto;                    
+            top: 1vw;
+            left: 1vw;
+            cursor: pointer;
+        };
+    }
+    </style>
+    <div class="carta"><h3>Карта сайта</h3></div>
+    <ul type="disk">
+        <li><a href="Index.html" target="Фрейм">
+            <input type="button" value="Привычки, стили поколений" class="carta0"></a>
+            <ul type="circle">
+                <li><a href="К1.html" target="Фрейм">
+                    <input type="button" value="Немного о поколениях" class="carta1"></a></li>
+                    <ul type="disk">
+                        <li><a href="К1.html"target="Фрейм"><input type="button" value="Поколение Альфа" class="carta2"></a></li>
+                        <li><a href="К1.html#Поколение Альфа"target="Фрейм"><input type="button" value="Поколение Z" class="carta2"></a></li>
+                        <li><a href="К1.html#Поколение Z"target="Фрейм"><input type="button" value="Поколение Y" class="carta2"></a></li>
+                        <li><a href="К1.html#Поколение Y"target="Фрейм"><input type="button" value="Поколение X" class="carta2"></a></li>
+                        <li><a href="К1.html#Поколение X"target="Фрейм"><input type="button" value="Поколение Бумеров" class="carta2"></a></li>
+                        <li><a href="К1.html#Поколение Беби-Бумеров"target="Фрейм"><input type="button" value="Тихое поколение" class="carta2"></a></li>
+                        <li><a href="К1.html#Тихое поколение"target="Фрейм"><input type="button" value="Великое поколение" class="carta2"></a></li>
+                        <li><a href="К1.html#Великое поколение"target="Фрейм"><input type="button" value="Потерянное поколение" class="carta2"></a></li>
+                    </ul>
+                <li><a href="К2.html"target="Фрейм">
+                    <input type="button" value="Привычки" class="carta2"></a></li>
+                    <ul type="disk">
+                        <li><a href="К2.html#Работа"target="Фрейм"><input type="button" value="Работа" class="carta2"></a></li>
+                        <li><a href="К2.html#Технологии"target="Фрейм"><input type="button" value="Технологии" class="carta2"></a></li>
+                        <li><a href="К2.html#Общение"target="Фрейм"><input type="button" value="Общение" class="carta2"></a></li>
+                        <li><a href="К2.html#Покупки"target="Фрейм"><input type="button" value="Покупки" class="carta2"></a></li>
+                    </ul>
+                <li><a href="К3.html"target="Фрейм">
+                    <input type="button" value="Стили" class="carta3"></a></li>
+                    <ul type="disk">
+                        <li><a href="К3.html#Одежда"target="Фрейм"><input type="button" value="Одежда" class="carta3"></a></li>
+                        <li><a href="К3.html#Музыка"target="Фрейм"><input type="button" value="Музыка" class="carta3"></a></li>
+                        <li><a href="К3.html#Искусство"target="Фрейм"><input type="button" value="Искусство" class="carta3"></a></li>
+                    </ul>    
+                <li><a href="К4.html"target="_top">
+                    <input type="button" value="О сайте" class="carta4"></a></li>
+                    <ul type="disk">
+                        <li><a href="К4.html"target="_top"><input type="button" value="Источники" class="carta4"></a></li>
+                        <li><a href="К4.html"target="_top"><input type="button" value="Отзывы" class="carta4"></a></li>
+                        <li><a href="К4.html"target="_top"><input type="button" value="Карта сайта" class="carta4"></a></li>
+                    </ul>
+            </ul>
+        </li>
+    </ul>
+</html>
